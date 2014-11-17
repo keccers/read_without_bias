@@ -1,0 +1,25 @@
+{
+  "name": "White Collar",
+  "version": "1.0",
+  "homepage_url": "http://whitecollar.io",
+  "description": "SOON",
+  "icons": { "48"  : "img/stop.png" },
+  "browser_action": {
+    "default_icon": "img/icon_48.png",
+    "default_title": "White Collar"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js", "whitecollar.js"],
+    "persistent": false
+  },
+    "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery-2.1.1.min.js"]
+    }
+  ],
+  "manifest_version": 2
+}

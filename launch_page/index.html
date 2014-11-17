@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Startup --> Business</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Read without bias. Replaces every instance of the word STARTUP with the word BUSINESS." />
+        <meta name="keywords" content="startup, business, chrome extension" />
+        <meta name="author" content="Katherine Champagne" />
+
+        <!--Facebook Open Graph-->
+        <meta property="og:image" content="https://s3-us-west-2.amazonaws.com/itsposture/why-not-me.jpg"/>
+        <meta property="og:title" content="Read Without Bias: Startup --> Business"/>
+        <meta property="og:description" content="Read without bias: this bookmarklet changes all instances of the word 'startup' to the word 'business'.">
+        <meta property="og:url" content=""/>
+        <meta property="og:site_name" content="Read Without Bias: Startup --> Business"/>
+
+        <link rel="shortcut icon" href="favicon.ico">
+		<link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style3.css" />
+		<script src="js/modernizr.custom.72111.js"></script>
+		<style>
+			.no-cssanimations .rw-wrapper .rw-sentence span:first-child{
+				opacity: 1;
+			}
+		</style>
+		<!--[if lt IE 9]> 
+			<style>
+				.rw-wrapper{ display: none; } 
+				.rw-sentence-IE{ display: block;  }
+			</style>
+		<![endif]-->
+    </head>
+    <body>
+        <div class="container">
+			<header>
+			</header>
+			<section class="rw-wrapper">
+				<h2 class="rw-sentence">
+					<span>The six worst things</span>
+					<br />
+					<span>about working at</span>
+					<br />
+					<span>a tech </span>
+					<div class="rw-words rw-words-1">
+						<span id="startup">startup</span>
+						<span>business</span>
+					</div>
+					<span>.</span>
+				</h2>
+				<p class='italic'>
+					The long hours. The pressure to conform. The chemical burns.
+					<a href="http://www.slate.com/articles/technology/technology/2014/10/six_worst_things_about_working_at_a_tech_startup_employees_tell_all.html">—Slate.com</a></p>
+			</section>
+			<h2 class="rw-sentence-IE">The six worst things about working at a tech startup.</h2>
+			<section class='cta'>
+				<p>Read without bias: this bookmarklet swaps all instances of the word 'startup' with the word 'business'.</p>
+				<h2>Get The Bookmarklet</h2>
+				<div id='button'>
+					<a href='javascript:(function(){function r(){(window.myBookmarklet=function(){console.log("STARTUPS STARTUPS OMG STARTUPS");$("body").children().each(function(){$(this).html($(this).html().replace(/Startups|Start-ups/g,"Businesses").replace(/startups|start-ups/g,"businesses").replace(/Startup/g,"Business").replace(/startup|start-up/g,"business"));console.log("WE OUT!")})})()}var e="2.1.0";if(window.jQuery===undefined||window.jQuery.fn.jquery<e){var t=false;var n=document.createElement("script");n.src="//ajax.googleapis.com/ajax/libs/jquery/"+e+"/jquery.min.js";n.onload=n.onreadystatechange=function(){if(!t&&(!this.readyState||this.readyState=="loaded"||this.readyState=="complete")){t=true;r()}};document.getElementsByTagName("head")[0].appendChild(n)}else{r()}})()' title='Startup To Business'>Startup To Business</a>
+				</div>
+				<small>Drag the button to your bookmarks bar.</small>
+				<h2>Try It Out</h2>
+				<ul>
+				<li><a href="https://www.google.com/search?q=startup+valuation#q=startup+valuation&tbm=nws" target="_blank">Recent news on startup valuations</a></li>
+				<li><a href="http://mashable.com/category/startups/" target="_blank">Mashable's Startup Section</a></li>
+				<li><a href="http://techcrunch.com/startups/" target="_blank">Techcrunch's Startup Section</a></li>
+				</ul>
+			</section>
+			<div class='clr'></div>
+			<section class='footnotes'>
+				<h2>Notes & Credits</h2>
+				<ol>
+					<li>
+						<a href="https://twitter.com/hoodinternet/status/533368724578140160" target="_blank">Challenge accepted</a> by <a href="https://twitter.com/keccers">Katherine Champagne</a>
+					</li>
+					<li>
+						This bookmarklet's <a href="" target="blank">Github</a>.
+					</li>
+				</ol>
+			</section>
+        </div>
+    </body>
+</html>
