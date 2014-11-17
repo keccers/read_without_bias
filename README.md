@@ -2,21 +2,12 @@ Welcome!
 ================
 
 ###About
-Sick of your Facebook friends? News getting you down?
-Hey Girl is a bookmarklet that changes every image on a webpage to one of Ryan Gosling. 
-
-###Teaching Web Development with Hey Girl
-Hey Girl is a great introductory project to object oriented JavaScript. 
+[It all starts here.](https://twitter.com/hoodinternet/status/533368724578140160)
 
 
-###How To Install
-* Select all of the code from [the bookmarklet file](https://github.com/keccers/heygirl/blob/master/bookmarklet.js) and drag it/copy it to your bookmarks bar. 
-
-###How To Use
-* Click the bookmarklet on any page that needs a little HEY GIRL!
-
-###Known Issues
-
+###Issues
+* WARNING: Can be a little buggy on Firefox
+* Please let me know if you see a varation of spelling on "Startup" that this code snippet doesn't translate.
 
 
 *Made with ❤ by KCHAMP!*
